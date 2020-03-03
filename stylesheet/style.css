@@ -55,7 +55,7 @@ blockquote {
 }
 
 
-h2, .fatFont {
+h4, .fatFont {
     text-transform: uppercase;
     margin-top: 2em
 }
@@ -66,7 +66,7 @@ h2, .fatFont {
     margin-bottom: 1.5rem;
 }
 
-h3.head2 {
+h4.head2 {
     border-bottom: none;
 }
 
@@ -77,7 +77,7 @@ h3.head2 {
 .fatFont {
      font-weight:600 !important;
 }
-.carousel-caption h2 {
+.carousel-caption h3 {
         text-shadow: 1px 1px 10px black;
         font-size: 1em;
     }
@@ -209,10 +209,9 @@ a.btn {
 }
 /*----------NavBar-----------*/
 
-.navbar h1 {
+.navbar h1, .navbar h2 {
     font-family: 'Montserrat', sans-serif;
     font-size: 1rem;
-    
 }
 
 .navbar {
@@ -257,7 +256,7 @@ hr.ft-light {
     
 /*--------Header carousel-----------*/
     
-    .carousel-caption h1 {
+    .carousel-caption h1, .carousel-caption h2 {
         font-family: 'Merriweather', serif; 
         font-size: 300%;
         text-transform: uppercase;
@@ -265,7 +264,7 @@ hr.ft-light {
     
     }
 
-    .carousel-caption h2 {
+    .carousel-caption h3 {
         font-size: 120%;
     }
     
@@ -330,7 +329,7 @@ hr.ft-light {
     
     /*Header carousel*/
     
-    .carousel-caption h1 {
+    .carousel-caption h1, .carousel-caption h2 {
         font-family: 'Merriweather', serif; 
         font-size: 150%;
         text-transform: uppercase;
